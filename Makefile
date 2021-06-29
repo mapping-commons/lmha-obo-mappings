@@ -8,7 +8,7 @@ mappings/auto-lmha-to-%.sssom.tsv: downloads/%.owl
 .PRECIOUS: mappings/auto-lmha-to-%.sssom.tsv
 
 mappings/lmha-to-%.sssom.tsv: mappings/auto-lmha-to-%.sssom.tsv
-	python -m sssom.cli dedupe -i $< -o $@
+	python -m sssom.cli dedupe -i $< -o $@ && perl -pi -ne 's@http://purl.obolibrary.org/obo/http%3A//www.lungmap.net/ontologies/human_anatomy#@@' $@
 
 downloads/%.owl:
 	robot merge -I $(OBO)/$*.owl -o $@
