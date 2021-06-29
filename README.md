@@ -22,4 +22,9 @@ If there is a match using something like a synonym or shared xref then this will
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |LMHA:00183|hyaline cartilage|general_tissue_structures|owl:equivalentClass|UBERON:0001994|hyaline cartilage tissue|uberon|Lexical|LMHA|UBERON|rdf_matcher|0.4482245494091784|rdfs:label|oio:hasExactSynonym|hyaline cartilage|.|
 
+# TODO
+
+ - make a useful report that shows which mappings are likely yet not present in source LMHA (trivial)
+ - configuring mapping weights
+ - run boomer
 
