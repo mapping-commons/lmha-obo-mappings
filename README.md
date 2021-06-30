@@ -1,8 +1,9 @@
 Not much time to document this, sorry...
 
  * See: [mappings](mappings)
-    * [cl](mappings//lmha-to-cl.sssom.tsv)
-    * [uberon](mappings//lmha-to-uberon.sssom.tsv)
+    * [cl](mappings/lmha-to-cl.sssom.tsv)
+    * [uberon](mappings/lmha-to-uberon.sssom.tsv)
+    * [no mappings](mappings/lmha-nomatches.sssom.tsv)
 
 All mappings are in SSSOM format
 
@@ -21,6 +22,13 @@ If there is a match using something like a synonym or shared xref then this will
 |subject_id|subject_label|subject_category|predicate_id|object_id|object_label|object_category|match_type|subject_source|object_source|mapping_tool|confidence|subject_match_field|object_match_field|match_string|comment|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |LMHA:00183|hyaline cartilage|general_tissue_structures|owl:equivalentClass|UBERON:0001994|hyaline cartilage tissue|uberon|Lexical|LMHA|UBERON|rdf_matcher|0.4482245494091784|rdfs:label|oio:hasExactSynonym|hyaline cartilage|.|
+
+# unmapped LMHA terms
+
+ones for which neither xref nor lexical match found:
+
+ * [no mappings](mappings/lmha-nomatches.sssom.tsv)
+
 
 # TODO
 

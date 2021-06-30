@@ -12,138 +12,138 @@
 #   sio: http://semanticscience.org/resource/SIO_
 #   skos: http://www.w3.org/2004/02/skos/core#
 # license: https://creativecommons.org/publicdomain/zero/1.0/
-# mapping_date: '2021-06-28'
+# mapping_date: '2021-06-30'
 # mapping_tool: https://github.com/cmungall/rdf_matcher
-# object_match_field: dc:identifier
-# object_source: UBERON
+# object_match_field: oio:hasDbXref
+# object_source: CL
 # subject_match_field: oio:hasDbXref
 # subject_source: LMHA
 subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	mapping_tool	confidence	subject_match_field	object_match_field	match_string	comment
-LMHA:00090	basophil	Respiratory_System	owl:equivalentClass	CL:0000767	basophil	cell	Lexical	LMHA	CL	rdf_matcher	0.9783934417572463	oio:hasDbXref	dc:identifier	CL:0000767	.
-LMHA:00179	granulocyte	Respiratory_System	owl:equivalentClass	CL:0000094	granulocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784508482944331	oio:hasDbXref	dc:identifier	CL:0000094	.
-LMHA:00613	megakaryocyte	Respiratory_System	owl:equivalentClass	CL:0000556	megakaryocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784404587908653	oio:hasDbXref	dc:identifier	CL:0000556	.
-LMHA:00668	platelet	Respiratory_System	owl:equivalentClass	CL:0000233	platelet	cell	Lexical	LMHA	CL	rdf_matcher	0.9784708123651974	oio:hasDbXref	dc:identifier	CL:0000233	.
-LMHA:00626	lymphoid tissue	Respiratory_System	owl:equivalentClass	UBERON:0001744	lymphoid tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.97846373375946	oio:hasDbXref	dc:identifier	UBERON:0001744	.
-LMHA:00224	lymph node	Respiratory_System	owl:equivalentClass	UBERON:0000029	lymph node	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784769586165054	oio:hasDbXref	dc:identifier	UBERON:0000029	.
-LMHA:00273	pericyte	Respiratory_System	owl:equivalentClass	CL:0000669	pericyte cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784282654214992	oio:hasDbXref	dc:identifier	CL:0000669	.
-LMHA:00354	T lymphocyte	Respiratory_System	owl:equivalentClass	CL:0000084	T cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784249790100394	oio:hasDbXref	dc:identifier	CL:0000084	.
-LMHA:00226	alveolar macrophage	Respiratory_System	owl:equivalentClass	CL:0000583	alveolar macrophage	cell	Lexical	LMHA	CL	rdf_matcher	0.97838709386724	oio:hasDbXref	dc:identifier	CL:0000583	.
-LMHA:00359	terminal bronchiole	Respiratory_System	owl:equivalentClass	UBERON:0002187	terminal bronchiole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784315097305215	oio:hasDbXref	dc:identifier	UBERON:0002187	.
-LMHA:00571	centroblast	Respiratory_System	owl:equivalentClass	CL:0000965	Bm3 B cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4482109214618039	rdfs:label	oio:hasRelatedSynonym	centroblast	.
-LMHA:00817	alveolar sac	Respiratory_System	owl:equivalentClass	UBERON:0002169	alveolar sac	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784594427718784	oio:hasDbXref	dc:identifier	UBERON:0002169	.
-LMHA:00326	right lung	Respiratory_System	owl:equivalentClass	UBERON:0002167	right lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784664451201665	oio:hasDbXref	dc:identifier	UBERON:0002167	.
-LMHA:00415	tracheal mucosa	Respiratory_System	owl:equivalentClass	UBERON:0000379	tracheal mucosa	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784304646643173	oio:hasDbXref	dc:identifier	UBERON:0000379	.
-LMHA:00183	hyaline cartilage	general_tissue_structures	owl:equivalentClass	UBERON:0001994	hyaline cartilage tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.448250534933215	rdfs:label	oio:hasExactSynonym	hyaline cartilage	.
-LMHA:00183	hyaline cartilage	general_tissue_structures	owl:equivalentClass	UBERON:0010996	articular cartilage of joint	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.28884943895056847	rdfs:label	oio:hasRelatedSynonym	hyaline cartilage	.
-LMHA:00141	chondrocyte	Respiratory_System	owl:equivalentClass	CL:0000138	chondrocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.651179066874257	rdfs:label	rdfs:label	chondrocyte	.
-LMHA:00227	mast cell	Respiratory_System	owl:equivalentClass	CL:0000097	mast cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784264350745974	oio:hasDbXref	dc:identifier	CL:0000097	.
-LMHA:00199	left lung	Respiratory_System	owl:equivalentClass	UBERON:0002168	left lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784088286768936	oio:hasDbXref	dc:identifier	UBERON:0002168	.
-LMHA:00392	vascular endothelial cell	Respiratory_System	owl:equivalentClass	CL:0002139	endothelial cell of vascular tree	cell	Lexical	LMHA	CL	rdf_matcher	0.9784003907365557	oio:hasDbXref	dc:identifier	CL:0002139	.
-LMHA:00142	ciliated cell	Respiratory_System	owl:equivalentClass	CL:0000064	ciliated cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784388146942516	oio:hasDbXref	dc:identifier	CL:0000064	.
-LMHA:00098	bronchial artery	Respiratory_System	owl:equivalentClass	UBERON:0002040	bronchial artery	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784465473575837	oio:hasDbXref	dc:identifier	UBERON:0002040	.
-LMHA:00231	mesothelial cell	Respiratory_System	owl:equivalentClass	CL:0000077	mesothelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784139395732405	oio:hasDbXref	dc:identifier	CL:0000077	.
-LMHA:00681	lymph node macrophage	Respiratory_System	owl:equivalentClass	CL:0000868	lymph node macrophage	cell	Lexical	LMHA	CL	rdf_matcher	0.978457780110752	oio:hasDbXref	dc:identifier	CL:0000868	.
-LMHA:00682	medulla	general_tissue_structures	owl:equivalentClass	UBERON:0000958	medulla of organ	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.44828831114630263	rdfs:label	oio:hasExactSynonym	medulla	.
-LMHA:00682	medulla	general_tissue_structures	owl:equivalentClass	UBERON:0001896	medulla oblongata	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.1688203345174715	rdfs:label	oio:hasBroadSynonym	medulla	.
-LMHA:00574	plasma cell	Respiratory_System	owl:equivalentClass	CL:0000786	plasma cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784661806589526	oio:hasDbXref	dc:identifier	CL:0000786	.
-LMHA:00361	trachea	Respiratory_System	owl:equivalentClass	UBERON:0003127	open tracheal system trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16880731816713945	rdfs:label	oio:hasBroadSynonym	trachea	.
-LMHA:00361	trachea	Respiratory_System	owl:equivalentClass	UBERON:0003126	trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577571941845368	oio:hasDbXref	dc:identifier	UBERON:0003126	.
-LMHA:00143	club cell	Respiratory_System	owl:equivalentClass	CL:0007021	alarm substance cell	thing	Lexical	LMHA	CL	rdf_matcher	0.28887871707617596	rdfs:label	oio:hasRelatedSynonym	club cell	.
-LMHA:00143	club cell	Respiratory_System	owl:equivalentClass	CL:0000158	club cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9576906359047992	oio:hasDbXref	dc:identifier	CL:0000158	.
-LMHA:00211	lung	Respiratory_System	owl:equivalentClass	UBERON:0000170	pair of lungs	uberon	Lexical|Stemming	LMHA	UBERON	rdf_matcher	0.3648396364958913	rdfs:label	oio:hasExactSynonym	lung	.
-LMHA:00211	lung	Respiratory_System	owl:equivalentClass	UBERON:0002048	lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577147492596488	oio:hasDbXref	dc:identifier	UBERON:0002048	.
-LMHA:00622	erythrocyte	Respiratory_System	owl:equivalentClass	CL:0000232	erythrocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784721456489914	oio:hasDbXref	dc:identifier	CL:0000232	.
-LMHA:00416	tracheal submucosa	Respiratory_System	owl:equivalentClass	UBERON:0002202	submucosa of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978453796953001	oio:hasDbXref	dc:identifier	UBERON:0002202	.
-LMHA:00047	submucosal gland	Respiratory_System	owl:equivalentClass	UBERON:0011148	submucosal gland	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978396850047342	oio:hasDbXref	dc:identifier	UBERON:0011148	.
-LMHA:00419	bronchial submucosa	Respiratory_System	owl:equivalentClass	UBERON:0001957	submucosa of bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784269407580786	oio:hasDbXref	dc:identifier	UBERON:0001957	.
-LMHA:00233	monocyte	Respiratory_System	owl:equivalentClass	CL:0001054	CD14-positive monocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.1688695964617034	rdfs:label	oio:hasNarrowSynonym	monocyte	.
-LMHA:00233	monocyte	Respiratory_System	owl:equivalentClass	CL:0000576	monocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.957751278285571	oio:hasDbXref	dc:identifier	CL:0000576	.
-LMHA:00418	bronchial mucosa	Respiratory_System	owl:equivalentClass	UBERON:0000410	bronchial mucosa	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784305186600654	oio:hasDbXref	dc:identifier	UBERON:0000410	.
-LMHA:00150	dendritic cell	Respiratory_System	owl:equivalentClass	CL:0000451	dendritic cell	cell	Lexical	LMHA	CL	rdf_matcher	0.48271585711397563	rdfs:label	rdfs:label	dendritic cell	.
-LMHA:00150	dendritic cell	Respiratory_System	owl:equivalentClass	CL:0001056	dendritic cell, human	cell	Lexical	LMHA	CL	rdf_matcher	0.1688475282132399	rdfs:label	oio:hasBroadSynonym	dendritic cell	.
-LMHA:00150	dendritic cell	Respiratory_System	owl:equivalentClass	CL:0000738	leukocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9577449980014942	oio:hasDbXref	dc:identifier	CL:0000738	.
-LMHA:00054	adipocyte	Respiratory_System	owl:equivalentClass	CL:0000136	fat cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784705699622365	oio:hasDbXref	dc:identifier	CL:0000136	.
-LMHA:00078	arteriole endothelium	Respiratory_System	owl:equivalentClass	UBERON:0001916	endothelium of arteriole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783854958717308	oio:hasDbXref	dc:identifier	UBERON:0001916	.
-LMHA:00103	bronchial smooth muscle	Respiratory_System	owl:equivalentClass	UBERON:0004242	bronchus smooth muscle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783997034019062	oio:hasDbXref	dc:identifier	UBERON:0004242	.
-LMHA:00365	trachea lumen	Respiratory_System	owl:equivalentClass	UBERON:0006833	lumen of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978382021255926	oio:hasDbXref	dc:identifier	UBERON:0006833	.
-LMHA:00055	adipose tissue	general_tissue_structures	owl:equivalentClass	UBERON:0001013	adipose tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6511629004583042	rdfs:label	rdfs:label	adipose tissue	.
-LMHA:00240	bronchiolar smooth muscle	Respiratory_System	owl:equivalentClass	UBERON:0004515	smooth muscle tissue of bronchiole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784329342596587	oio:hasDbXref	dc:identifier	UBERON:0004515	.
-LMHA:00081	artery endothelium	Respiratory_System	owl:equivalentClass	UBERON:0001917	endothelium of artery	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.97841259798399	oio:hasDbXref	dc:identifier	UBERON:0001917	.
-LMHA:00548	respiratory vascular system	Respiratory_System	owl:equivalentClass	UBERON:0003504	respiratory system blood vessel	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784047239785084	oio:hasDbXref	dc:identifier	UBERON:0003504	.
-LMHA:00291	pulmonary artery	Respiratory_System	owl:equivalentClass	UBERON:0002012	pulmonary artery	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784223436530158	oio:hasDbXref	dc:identifier	UBERON:0002012	.
-LMHA:00185	immune cell	Respiratory_System	owl:equivalentClass	CL:0000738	leukocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9577054937538653	oio:hasDbXref	dc:identifier	CL:0000738	.
-LMHA:00688	medullary sinus	general_tissue_structures	owl:equivalentClass	UBERON:0009744	lymph node medullary sinus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784390441545392	oio:hasDbXref	dc:identifier	UBERON:0009744	.
-LMHA:00319	respiratory tract	Respiratory_System	owl:equivalentClass	UBERON:0001005	respiratory airway	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.33340480761726177	oio:hasDbXref	oio:hasDbXref	FMA:265130	.
-LMHA:00319	respiratory tract	Respiratory_System	owl:equivalentClass	UBERON:0000072	proximo-distal subdivision of respiratory tract	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.3333899851237691	oio:hasDbXref	oio:hasDbXref	MA:0000434	.
-LMHA:00319	respiratory tract	Respiratory_System	owl:equivalentClass	UBERON:0000065	respiratory tract	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577392189277997	oio:hasDbXref	dc:identifier	UBERON:0000065	.
-LMHA:00086	B lymphocyte	Respiratory_System	owl:equivalentClass	CL:0000819	B-1 B cell	cell	Lexical|Flattening	LMHA	CL	rdf_matcher	0.22313033448922967	rdfs:label	oio:hasExactSynonym	blymphocyte	.
-LMHA:00086	B lymphocyte	Respiratory_System	owl:equivalentClass	CL:0000821	B-1b B cell	cell	Lexical|Flattening	LMHA	CL	rdf_matcher	0.22318484674202246	rdfs:label	oio:hasExactSynonym	blymphocyte	.
-LMHA:00086	B lymphocyte	Respiratory_System	owl:equivalentClass	CL:0000822	B-2 B cell	cell	Lexical|Flattening	LMHA	CL	rdf_matcher	0.22314523503266354	rdfs:label	oio:hasExactSynonym	blymphocyte	.
-LMHA:00086	B lymphocyte	Respiratory_System	owl:equivalentClass	CL:0000236	B cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9577608746756364	oio:hasDbXref	dc:identifier	CL:0000236	.
-LMHA:00158	elastic fiber	general_tissue_structures	owl:equivalentClass	UBERON:0002521	elastic tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784199314723943	oio:hasDbXref	dc:identifier	UBERON:0002521	.
-LMHA:00105	bronchial vein	Respiratory_System	owl:equivalentClass	UBERON:0001592	bronchial vein	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784081318913922	oio:hasDbXref	dc:identifier	UBERON:0001592	.
-LMHA:00223	lymphocyte	Respiratory_System	owl:equivalentClass	CL:0000542	lymphocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784430608630064	oio:hasDbXref	dc:identifier	CL:0000542	.
-LMHA:00163	eosinophil	Respiratory_System	owl:equivalentClass	CL:0000771	eosinophil	cell	Lexical	LMHA	CL	rdf_matcher	0.9784412359342938	oio:hasDbXref	dc:identifier	CL:0000771	.
-LMHA:00569	mantle zone	general_tissue_structures	owl:equivalentClass	UBERON:0010755	secondary follicle corona	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.4482561324764635	rdfs:label	oio:hasRelatedSynonym	mantle zone	.
-LMHA:00690	subcapsular sinus	general_tissue_structures	owl:equivalentClass	UBERON:0005463	subcapsular sinus of lymph node	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784320640676089	oio:hasDbXref	dc:identifier	UBERON:0005463	.
-LMHA:00570	germinal center	Respiratory_System	owl:equivalentClass	UBERON:0009039	lymph node germinal center	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16883326706501342	rdfs:label	oio:hasBroadSynonym	germinal center	.
-LMHA:00570	germinal center	Respiratory_System	owl:equivalentClass	UBERON:0010754	germinal center	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9576993513423523	oio:hasDbXref	dc:identifier	UBERON:0010754	.
-LMHA:00242	myoepithelial cell	Respiratory_System	owl:equivalentClass	CL:0000185	myoepithelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.6511003197062112	rdfs:label	rdfs:label	myoepithelial cell	.
-LMHA:00247	nerve fiber	general_tissue_structures	owl:equivalentClass	GO:0043005	neuron projection	cellular_component	Lexical	LMHA	GO	rdf_matcher	0.4482982059487693	rdfs:label	oio:hasRelatedSynonym	nerve fiber	.
-LMHA:00247	nerve fiber	general_tissue_structures	owl:equivalentClass	UBERON:0006134	nerve fiber	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784221576921138	oio:hasDbXref	dc:identifier	UBERON:0006134	.
-LMHA:00002	interalveolar septum	Respiratory_System	owl:equivalentClass	UBERON:0004893	interalveolar septum	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783838855158993	oio:hasDbXref	dc:identifier	UBERON:0004893	.
-LMHA:00573	marginal zone	general_tissue_structures	owl:equivalentClass	UBERON:0001251	marginal zone of spleen	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.1688016995438021	rdfs:label	oio:hasBroadSynonym	marginal zone	.
-LMHA:00573	marginal zone	general_tissue_structures	owl:equivalentClass	UBERON:0014935	cerebral cortex marginal layer	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16883193098590807	rdfs:label	oio:hasBroadSynonym	marginal zone	.
-LMHA:00685	reticular cell	Respiratory_System	owl:equivalentClass	CL:0000432	reticular cell	cell	Lexical	LMHA	CL	rdf_matcher	0.6511630496834077	rdfs:label	rdfs:label	reticular cell	.
-LMHA:00651	bronchus-associated lymphoid tissue	Respiratory_System	owl:equivalentClass	UBERON:0001963	bronchial-associated lymphoid tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000551871433583	oio:hasDbXref	oio:hasDbXref	MA:0000135	.
-LMHA:00521	autonomic neuron	Respiratory_System	owl:equivalentClass	CL:0000107	autonomic neuron	cell	Lexical	LMHA	CL	rdf_matcher	0.9784518357866322	oio:hasDbXref	dc:identifier	CL:0000107	.
-LMHA:00683	medullary cord	general_tissue_structures	owl:equivalentClass	UBERON:0009745	lymph node medullary cord	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783940851349808	oio:hasDbXref	dc:identifier	UBERON:0009745	.
-LMHA:00072	alveolus of lung	Respiratory_System	owl:equivalentClass	UBERON:0002299	alveolus of lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784243206949461	oio:hasDbXref	dc:identifier	UBERON:0002299	.
-LMHA:00623	innate lymphoid cell	Respiratory_System	owl:equivalentClass	CL:0001065	innate lymphoid cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784049771905015	oio:hasDbXref	dc:identifier	CL:0001065	.
-LMHA:00087	basal cell	Respiratory_System	owl:equivalentClass	CL:0000646	basal cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784145891933361	oio:hasDbXref	dc:identifier	CL:0000646	.
-LMHA:00062	pulmonary alveolar duct	Respiratory_System	owl:equivalentClass	UBERON:0002173	pulmonary alveolar duct	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6511716818500374	rdfs:label	rdfs:label	pulmonary alveolar duct	.
-LMHA:00245	natural killer cell	Respiratory_System	owl:equivalentClass	CL:0000623	natural killer cell	cell	Lexical	LMHA	CL	rdf_matcher	0.978437348637783	oio:hasDbXref	dc:identifier	CL:0000623	.
-LMHA:00338	glial cell	Respiratory_System	owl:equivalentClass	CL:0000125	glial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4827742675657337	rdfs:label	rdfs:label	glial cell	.
-LMHA:00338	glial cell	Respiratory_System	owl:equivalentClass	CL:0000218	myelinating Schwann cell	cell	Lexical	LMHA	CL	rdf_matcher	0.957719749382286	oio:hasDbXref	dc:identifier	CL:0000218	.
-LMHA:00583	tracheal epithelial cell	Respiratory_System	owl:equivalentClass	CL:0000307	tracheal epithelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.978423841368586	oio:hasDbXref	dc:identifier	CL:0000307	.
-LMHA:00577	bronchial epithelial cell	Respiratory_System	owl:equivalentClass	CL:0002328	bronchial epithelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.978468293517469	oio:hasDbXref	dc:identifier	CL:0002328	.
-LMHA:00136	connective tissue cell	Respiratory_System	owl:equivalentClass	CL:0002320	connective tissue cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784752757483267	oio:hasDbXref	dc:identifier	CL:0002320	.
-LMHA:00007	matrix fibroblast	Respiratory_System	owl:equivalentClass	CL:0000057	fibroblast	cell	Lexical	LMHA	CL	rdf_matcher	0.9784755389659004	oio:hasDbXref	dc:identifier	CL:0000057	.
-LMHA:00252	neuroendocrine cell	Respiratory_System	owl:equivalentClass	CL:0000165	neuroendocrine cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784189321442042	oio:hasDbXref	dc:identifier	CL:0000165	.
-LMHA:00216	lymphatic endothelial cell	Respiratory_System	owl:equivalentClass	CL:0002138	endothelial cell of lymphatic vessel	cell	Lexical	LMHA	CL	rdf_matcher	0.9784757345729971	oio:hasDbXref	dc:identifier	CL:0002138	.
-LMHA:00343	smooth muscle cell	Respiratory_System	owl:equivalentClass	CL:0000192	smooth muscle cell	cell	Lexical	LMHA	CL	rdf_matcher	0.978437927061708	oio:hasDbXref	dc:identifier	CL:0000192	.
-LMHA:00089	basement membrane	general_tissue_structures	owl:equivalentClass	UBERON:0005769	basement membrane of epithelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000523403139578	oio:hasDbXref	oio:hasDbXref	FMA:63872	.
-LMHA:00805	venous endothelial cell	Respiratory_System	owl:equivalentClass	CL:0002543	vein endothelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4482556229498032	rdfs:label	oio:hasExactSynonym	venous endothelial cell	.
-LMHA:00805	venous endothelial cell	Respiratory_System	owl:equivalentClass	CL:0000115	endothelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.3334114558366475	oio:hasDbXref	oio:hasDbXref	BTO:0001176	.
-LMHA:00305	pulmonary vein	Respiratory_System	owl:equivalentClass	UBERON:0002016	pulmonary vein	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783920320005605	oio:hasDbXref	dc:identifier	UBERON:0002016	.
-LMHA:00101	bronchial epithelium	Respiratory_System	owl:equivalentClass	UBERON:0002031	epithelium of bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783983914347352	oio:hasDbXref	dc:identifier	UBERON:0002031	.
-LMHA:00483	tracheal lamina propria	Respiratory_System	owl:equivalentClass	UBERON:0000031	lamina propria of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784433673568499	oio:hasDbXref	dc:identifier	UBERON:0000031	.
-LMHA:00340	serous cell	Respiratory_System	owl:equivalentClass	CL:0000313	serous secreting cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784499991188986	oio:hasDbXref	dc:identifier	CL:0000313	.
-LMHA:00586	alveolar epithelial cell	Respiratory_System	owl:equivalentClass	CL:0000322	pneumocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.6189791192324383	rdfs:label	oio:hasExactSynonym	alveolar epithelial cell	.
-LMHA:00558	Langerhans cell	Respiratory_System	owl:equivalentClass	CL:0000453	Langerhans cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784181304262233	oio:hasDbXref	dc:identifier	CL:0000453	.
-LMHA:00379	type I pneumocyte	Respiratory_System	owl:equivalentClass	CL:0002062	type I pneumocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784175645481864	oio:hasDbXref	dc:identifier	CL:0002062	.
-LMHA:00680	cortex	Respiratory_System	owl:equivalentClass	UBERON:0001851	cortex	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784339019043268	oio:hasDbXref	dc:identifier	UBERON:0001851	.
-LMHA:00120	bronchus	Respiratory_System	owl:equivalentClass	UBERON:0002185	bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978441928511917	oio:hasDbXref	dc:identifier	UBERON:0002185	.
-LMHA:00241	myeloid cell	Respiratory_System	owl:equivalentClass	CL:0000763	myeloid cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784014183222751	oio:hasDbXref	dc:identifier	CL:0000763	.
-LMHA:00692	blood cell	Respiratory_System	owl:equivalentClass	CL:0000081	blood cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9783898915772876	oio:hasDbXref	dc:identifier	CL:0000081	.
-LMHA:00288	tracheal epithelium	Respiratory_System	owl:equivalentClass	UBERON:0001901	epithelium of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784552419829196	oio:hasDbXref	dc:identifier	UBERON:0001901	.
-LMHA:00065	alveolar epithelium	Respiratory_System	owl:equivalentClass	UBERON:0004821	pulmonary alveolus epithelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000476155453472	oio:hasDbXref	oio:hasDbXref	FMA:63915	.
-LMHA:00381	type II pneumocyte	Respiratory_System	owl:equivalentClass	CL:0002063	type II pneumocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784472809319339	oio:hasDbXref	dc:identifier	CL:0002063	.
-LMHA:00397	vein endothelium	Respiratory_System	owl:equivalentClass	UBERON:0001919	endothelium of vein	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784289548523072	oio:hasDbXref	dc:identifier	UBERON:0001919	.
-LMHA:00447	pulmonary lymphatic vessel	Respiratory_System	owl:equivalentClass	UBERON:0018227	pulmonary lymphatic vessel	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784460276815496	oio:hasDbXref	dc:identifier	UBERON:0018227	.
-LMHA:00217	lymphatic smooth muscle	Respiratory_System	owl:equivalentClass	UBERON:0004232	lymphatic vessel smooth muscle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784745989512349	oio:hasDbXref	dc:identifier	UBERON:0004232	.
-LMHA:00403	venule endothelium	Respiratory_System	owl:equivalentClass	UBERON:0001918	endothelium of venule	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6189808293811271	rdfs:label	oio:hasExactSynonym	venule endothelium	.
-LMHA:00567	lymphoid follicle	Respiratory_System	owl:equivalentClass	UBERON:0000444	lymphoid follicle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978397214337735	oio:hasDbXref	dc:identifier	UBERON:0000444	.
-LMHA:00140	respiratory bronchiole	Respiratory_System	owl:equivalentClass	UBERON:0002188	respiratory bronchiole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6511172032137807	rdfs:label	rdfs:label	respiratory bronchiole	.
-LMHA:00369	tracheal smooth muscle	Respiratory_System	owl:equivalentClass	UBERON:0003387	smooth muscle of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6190212976429853	rdfs:label	oio:hasExactSynonym	tracheal smooth muscle	.
-LMHA:00422	lymphatic endothelium	Respiratory_System	owl:equivalentClass	UBERON:0002042	lymphatic vessel endothelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783816842740932	oio:hasDbXref	dc:identifier	UBERON:0002042	.
-LMHA:00437	nuocyte	Respiratory_System	owl:equivalentClass	CL:0001069	group 2 innate lymphoid cell	cell	Lexical	LMHA	CL	rdf_matcher	0.448233732244052	rdfs:label	oio:hasExactSynonym	nuocyte	.
-LMHA:00437	nuocyte	Respiratory_System	owl:equivalentClass	CL:0002089	group 2 innate lymphoid cell, mouse	cell	Lexical	LMHA	CL	rdf_matcher	0.9576806189090511	oio:hasDbXref	dc:identifier	CL:0002089	.
-LMHA:00182	macrophage	Respiratory_System	owl:equivalentClass	CL:0000235	macrophage	cell	Lexical	LMHA	CL	rdf_matcher	0.9784198218106128	oio:hasDbXref	dc:identifier	CL:0000235	.
-LMHA:00457	terminal bronchiolar epithelium	Respiratory_System	owl:equivalentClass	UBERON:0001958	terminal bronchiole epithelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000354221523164	oio:hasDbXref	oio:hasDbXref	FMA:62794	.
-LMHA:00393	vascular smooth muscle	Respiratory_System	owl:equivalentClass	UBERON:0004237	blood vessel smooth muscle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784428726565384	oio:hasDbXref	dc:identifier	UBERON:0004237	.
-LMHA:00804	arterial endothelial cell	Respiratory_System	owl:equivalentClass	CL:1000413	endothelial cell of artery	cell	Lexical	LMHA	CL	rdf_matcher	0.6189939230360433	rdfs:label	oio:hasExactSynonym	arterial endothelial cell	.
-LMHA:00210	lower respiratory tract	Respiratory_System	owl:equivalentClass	UBERON:0001558	lower respiratory tract	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784276888862206	oio:hasDbXref	dc:identifier	UBERON:0001558	.
-LMHA:00256	neutrophil	Respiratory_System	owl:equivalentClass	CL:0000775	neutrophil	cell	Lexical	LMHA	CL	rdf_matcher	0.9784286769293928	oio:hasDbXref	dc:identifier	CL:0000775	.
-LMHA:00590	bronchial lamina propria	Respiratory_System	owl:equivalentClass	UBERON:0002338	lamina propria of bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784118169744842	oio:hasDbXref	dc:identifier	UBERON:0002338	.
+LMHA:00179	granulocyte	Cell	owl:equivalentClass	CL:0000094	granulocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9783871579831969	oio:hasDbXref	dc:identifier	CL:0000094	.
+LMHA:00613	megakaryocyte	Cell	owl:equivalentClass	CL:0000556	megakaryocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784551651867306	oio:hasDbXref	dc:identifier	CL:0000556	.
+LMHA:00626	lymphoid tissue	AnatomicalSystem	owl:equivalentClass	UBERON:0001744	lymphoid tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784173947746884	oio:hasDbXref	dc:identifier	UBERON:0001744	.
+LMHA:00224	lymph node	AnatomicalSystem	owl:equivalentClass	UBERON:0000029	lymph node	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784524186574425	oio:hasDbXref	dc:identifier	UBERON:0000029	.
+LMHA:00141	chondrocyte	Cell	owl:equivalentClass	CL:0000138	chondrocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.6511469307709719	rdfs:label	rdfs:label	chondrocyte	.
+LMHA:00668	platelet	Cell	owl:equivalentClass	CL:0000233	platelet	cell	Lexical	LMHA	CL	rdf_matcher	0.9784682415360771	oio:hasDbXref	dc:identifier	CL:0000233	.
+LMHA:00326	right lung	AnatomicalStructure	owl:equivalentClass	UBERON:0002167	right lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784065736319031	oio:hasDbXref	dc:identifier	UBERON:0002167	.
+LMHA:00354	T lymphocyte	Cell	owl:equivalentClass	CL:0000084	T cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784437078074625	oio:hasDbXref	dc:identifier	CL:0000084	.
+LMHA:00273	pericyte	Cell	owl:equivalentClass	CL:0000669	pericyte cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784739779698095	oio:hasDbXref	dc:identifier	CL:0000669	.
+LMHA:00142	ciliated cell	Cell	owl:equivalentClass	CL:0000064	ciliated cell	cell	Lexical	LMHA	CL	rdf_matcher	0.978400216479791	oio:hasDbXref	dc:identifier	CL:0000064	.
+LMHA:00226	alveolar macrophage	Cell	owl:equivalentClass	CL:0000583	alveolar macrophage	cell	Lexical	LMHA	CL	rdf_matcher	0.9783871380313806	oio:hasDbXref	dc:identifier	CL:0000583	.
+LMHA:00415	tracheal mucosa	AnatomicalStructure	owl:equivalentClass	UBERON:0000379	tracheal mucosa	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784805545815903	oio:hasDbXref	dc:identifier	UBERON:0000379	.
+LMHA:00183	hyaline cartilage	General	owl:equivalentClass	UBERON:0001994	hyaline cartilage tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.4482249256962327	rdfs:label	oio:hasExactSynonym	hyaline cartilage	.
+LMHA:00183	hyaline cartilage	General	owl:equivalentClass	UBERON:0010996	articular cartilage of joint	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.28884203139298487	rdfs:label	oio:hasRelatedSynonym	hyaline cartilage	.
+LMHA:00571	centroblast	Cell	owl:equivalentClass	CL:0000965	Bm3 B cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4482354526773111	rdfs:label	oio:hasRelatedSynonym	centroblast	.
+LMHA:00227	mast cell	Cell	owl:equivalentClass	CL:0000097	mast cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784416232248877	oio:hasDbXref	dc:identifier	CL:0000097	.
+LMHA:00143	club cell	Cell	owl:equivalentClass	CL:0007021	alarm substance cell	thing	Lexical	LMHA	CL	rdf_matcher	0.2889239356159172	rdfs:label	oio:hasRelatedSynonym	club cell	.
+LMHA:00143	club cell	Cell	owl:equivalentClass	CL:0000158	club cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9577673485736816	oio:hasDbXref	dc:identifier	CL:0000158	.
+LMHA:00199	left lung	AnatomicalStructure	owl:equivalentClass	UBERON:0002168	left lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784168243524072	oio:hasDbXref	dc:identifier	UBERON:0002168	.
+LMHA:00392	vascular endothelial cell	Cell	owl:equivalentClass	CL:0002139	endothelial cell of vascular tree	cell	Lexical	LMHA	CL	rdf_matcher	0.9784063140019083	oio:hasDbXref	dc:identifier	CL:0002139	.
+LMHA:00098	bronchial artery	AnatomicalSystem	owl:equivalentClass	UBERON:0002040	bronchial artery	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784364693797858	oio:hasDbXref	dc:identifier	UBERON:0002040	.
+LMHA:00359	terminal bronchiole	AnatomicalStructure	owl:equivalentClass	UBERON:0002187	terminal bronchiole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978408273282068	oio:hasDbXref	dc:identifier	UBERON:0002187	.
+LMHA:00361	trachea	AnatomicalStructure	owl:equivalentClass	UBERON:0003127	open tracheal system trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16885930768164137	rdfs:label	oio:hasBroadSynonym	trachea	.
+LMHA:00361	trachea	AnatomicalStructure	owl:equivalentClass	UBERON:0003126	trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577464854409129	oio:hasDbXref	dc:identifier	UBERON:0003126	.
+LMHA:00211	lung	AnatomicalStructure	owl:equivalentClass	UBERON:0000170	pair of lungs	uberon	Lexical|Stemming	LMHA	UBERON	rdf_matcher	0.3649070055855976	rdfs:label	oio:hasExactSynonym	lung	.
+LMHA:00211	lung	AnatomicalStructure	owl:equivalentClass	UBERON:0002048	lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577219208065919	oio:hasDbXref	dc:identifier	UBERON:0002048	.
+LMHA:00622	erythrocyte	Cell	owl:equivalentClass	CL:0000232	erythrocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784637321109045	oio:hasDbXref	dc:identifier	CL:0000232	.
+LMHA:00047	submucosal gland	AnatomicalStructure	owl:equivalentClass	UBERON:0011148	submucosal gland	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783947775513264	oio:hasDbXref	dc:identifier	UBERON:0011148	.
+LMHA:00682	medulla	General	owl:equivalentClass	UBERON:0000958	medulla of organ	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.44821778685037933	rdfs:label	oio:hasExactSynonym	medulla	.
+LMHA:00682	medulla	General	owl:equivalentClass	UBERON:0001896	medulla oblongata	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16883485208512025	rdfs:label	oio:hasBroadSynonym	medulla	.
+LMHA:00231	mesothelial cell	Cell	owl:equivalentClass	CL:0000077	mesothelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784106828395477	oio:hasDbXref	dc:identifier	CL:0000077	.
+LMHA:00419	bronchial submucosa	AnatomicalStructure	owl:equivalentClass	UBERON:0001957	submucosa of bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783846455018625	oio:hasDbXref	dc:identifier	UBERON:0001957	.
+LMHA:00574	plasma cell	Cell	owl:equivalentClass	CL:0000786	plasma cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9783938882183593	oio:hasDbXref	dc:identifier	CL:0000786	.
+LMHA:00416	tracheal submucosa	AnatomicalStructure	owl:equivalentClass	UBERON:0002202	submucosa of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978399909113923	oio:hasDbXref	dc:identifier	UBERON:0002202	.
+LMHA:00233	monocyte	Cell	owl:equivalentClass	CL:0001054	CD14-positive monocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.16883410565318782	rdfs:label	oio:hasNarrowSynonym	monocyte	.
+LMHA:00233	monocyte	Cell	owl:equivalentClass	CL:0000576	monocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9577742241782021	oio:hasDbXref	dc:identifier	CL:0000576	.
+LMHA:00685	reticular cell	Cell	owl:equivalentClass	CL:0000432	reticular cell	cell	Lexical	LMHA	CL	rdf_matcher	0.6511422060487135	rdfs:label	rdfs:label	reticular cell	.
+LMHA:00418	bronchial mucosa	AnatomicalStructure	owl:equivalentClass	UBERON:0000410	bronchial mucosa	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784668604686008	oio:hasDbXref	dc:identifier	UBERON:0000410	.
+LMHA:00078	arteriole endothelium	AnatomicalSystem	owl:equivalentClass	UBERON:0001916	endothelium of arteriole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784053715134045	oio:hasDbXref	dc:identifier	UBERON:0001916	.
+LMHA:00055	adipose tissue	General	owl:equivalentClass	UBERON:0001013	adipose tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6511082540818909	rdfs:label	rdfs:label	adipose tissue	.
+LMHA:00185	immune cell	Cell	owl:equivalentClass	CL:0000738	leukocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9577639005767683	oio:hasDbXref	dc:identifier	CL:0000738	.
+LMHA:00150	dendritic cell	Cell	owl:equivalentClass	CL:0000451	dendritic cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4827360284687321	rdfs:label	rdfs:label	dendritic cell	.
+LMHA:00150	dendritic cell	Cell	owl:equivalentClass	CL:0001056	dendritic cell, human	cell	Lexical	LMHA	CL	rdf_matcher	0.16884322574902352	rdfs:label	oio:hasBroadSynonym	dendritic cell	.
+LMHA:00150	dendritic cell	Cell	owl:equivalentClass	CL:0000738	leukocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9577300291303523	oio:hasDbXref	dc:identifier	CL:0000738	.
+LMHA:00240	bronchiolar smooth muscle	AnatomicalStructure	owl:equivalentClass	UBERON:0004515	smooth muscle tissue of bronchiole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978458972379702	oio:hasDbXref	dc:identifier	UBERON:0004515	.
+LMHA:00054	adipocyte	Cell	owl:equivalentClass	CL:0000136	fat cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784436690223268	oio:hasDbXref	dc:identifier	CL:0000136	.
+LMHA:00103	bronchial smooth muscle	AnatomicalStructure	owl:equivalentClass	UBERON:0004242	bronchus smooth muscle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784749707429926	oio:hasDbXref	dc:identifier	UBERON:0004242	.
+LMHA:00365	trachea lumen	AnatomicalStructure	owl:equivalentClass	UBERON:0006833	lumen of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784612613566666	oio:hasDbXref	dc:identifier	UBERON:0006833	.
+LMHA:00548	respiratory vascular system	AnatomicalSystem	owl:equivalentClass	UBERON:0003504	respiratory system blood vessel	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784310794676737	oio:hasDbXref	dc:identifier	UBERON:0003504	.
+LMHA:00081	artery endothelium	AnatomicalSystem	owl:equivalentClass	UBERON:0001917	endothelium of artery	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784390363909208	oio:hasDbXref	dc:identifier	UBERON:0001917	.
+LMHA:00681	lymph node macrophage	Cell	owl:equivalentClass	CL:0000868	lymph node macrophage	cell	Lexical	LMHA	CL	rdf_matcher	0.978437138519043	oio:hasDbXref	dc:identifier	CL:0000868	.
+LMHA:00291	pulmonary artery	AnatomicalSystem	owl:equivalentClass	UBERON:0002012	pulmonary artery	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784484440368616	oio:hasDbXref	dc:identifier	UBERON:0002012	.
+LMHA:00105	bronchial vein	AnatomicalStructure	owl:equivalentClass	UBERON:0001592	bronchial vein	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783879806051398	oio:hasDbXref	dc:identifier	UBERON:0001592	.
+LMHA:00319	respiratory tract	AnatomicalStructure	owl:equivalentClass	UBERON:0001005	respiratory airway	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.3333656185528219	oio:hasDbXref	oio:hasDbXref	FMA:265130	.
+LMHA:00319	respiratory tract	AnatomicalStructure	owl:equivalentClass	UBERON:0000072	proximo-distal subdivision of respiratory tract	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.33339138197841883	oio:hasDbXref	oio:hasDbXref	MA:0000434	.
+LMHA:00319	respiratory tract	AnatomicalStructure	owl:equivalentClass	UBERON:0000065	respiratory tract	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577002727746241	oio:hasDbXref	dc:identifier	UBERON:0000065	.
+LMHA:00163	eosinophil	Cell	owl:equivalentClass	CL:0000771	eosinophil	cell	Lexical	LMHA	CL	rdf_matcher	0.9784682920467683	oio:hasDbXref	dc:identifier	CL:0000771	.
+LMHA:00086	B lymphocyte	Cell	owl:equivalentClass	CL:0000819	B-1 B cell	cell	Lexical|Flattening	LMHA	CL	rdf_matcher	0.22320100445376354	rdfs:label	oio:hasExactSynonym	blymphocyte	.
+LMHA:00086	B lymphocyte	Cell	owl:equivalentClass	CL:0000821	B-1b B cell	cell	Lexical|Flattening	LMHA	CL	rdf_matcher	0.22316940859643516	rdfs:label	oio:hasExactSynonym	blymphocyte	.
+LMHA:00086	B lymphocyte	Cell	owl:equivalentClass	CL:0000822	B-2 B cell	cell	Lexical|Flattening	LMHA	CL	rdf_matcher	0.22311123779906963	rdfs:label	oio:hasExactSynonym	blymphocyte	.
+LMHA:00086	B lymphocyte	Cell	owl:equivalentClass	CL:0000236	B cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9577546797955612	oio:hasDbXref	dc:identifier	CL:0000236	.
+LMHA:00158	elastic fiber	General	owl:equivalentClass	UBERON:0002521	elastic tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784301313834695	oio:hasDbXref	dc:identifier	UBERON:0002521	.
+LMHA:00245	natural killer cell	Cell	owl:equivalentClass	CL:0000623	natural killer cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784330464158807	oio:hasDbXref	dc:identifier	CL:0000623	.
+LMHA:00223	lymphocyte	Cell	owl:equivalentClass	CL:0000542	lymphocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784793622042806	oio:hasDbXref	dc:identifier	CL:0000542	.
+LMHA:00690	subcapsular sinus	General	owl:equivalentClass	UBERON:0005463	subcapsular sinus of lymph node	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784587239219629	oio:hasDbXref	dc:identifier	UBERON:0005463	.
+LMHA:00242	myoepithelial cell	AnatomicalStructure	owl:equivalentClass	CL:0000185	myoepithelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.6511373049709055	rdfs:label	rdfs:label	myoepithelial cell	.
+LMHA:00569	mantle zone	General	owl:equivalentClass	UBERON:0010755	secondary follicle corona	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.4482536700315582	rdfs:label	oio:hasRelatedSynonym	mantle zone	.
+LMHA:00570	germinal center	AnatomicalSystem	owl:equivalentClass	UBERON:0009039	lymph node germinal center	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16882093654858626	rdfs:label	oio:hasBroadSynonym	germinal center	.
+LMHA:00570	germinal center	AnatomicalSystem	owl:equivalentClass	UBERON:0010754	germinal center	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9577281882886831	oio:hasDbXref	dc:identifier	UBERON:0010754	.
+LMHA:00573	marginal zone	General	owl:equivalentClass	UBERON:0001251	marginal zone of spleen	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16887610554490495	rdfs:label	oio:hasBroadSynonym	marginal zone	.
+LMHA:00573	marginal zone	General	owl:equivalentClass	UBERON:0014935	cerebral cortex marginal layer	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.16883123040000678	rdfs:label	oio:hasBroadSynonym	marginal zone	.
+LMHA:00072	alveolus of lung	AnatomicalStructure	owl:equivalentClass	UBERON:0002299	alveolus of lung	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784004292424253	oio:hasDbXref	dc:identifier	UBERON:0002299	.
+LMHA:00651	bronchus-associated lymphoid tissue	AnatomicalStructure	owl:equivalentClass	UBERON:0001963	bronchial-associated lymphoid tissue	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000263847671825	oio:hasDbXref	oio:hasDbXref	MA:0000135	.
+LMHA:00247	nerve fiber	General	owl:equivalentClass	GO:0043005	neuron projection	cellular_component	Lexical	LMHA	GO	rdf_matcher	0.4482797567186391	rdfs:label	oio:hasRelatedSynonym	nerve fiber	.
+LMHA:00247	nerve fiber	General	owl:equivalentClass	UBERON:0006134	nerve fiber	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784341150994063	oio:hasDbXref	dc:identifier	UBERON:0006134	.
+LMHA:00002	interalveolar septum	AnatomicalStructure	owl:equivalentClass	UBERON:0004893	interalveolar septum	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784363985305896	oio:hasDbXref	dc:identifier	UBERON:0004893	.
+LMHA:00683	medullary cord	General	owl:equivalentClass	UBERON:0009745	lymph node medullary cord	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784218709937387	oio:hasDbXref	dc:identifier	UBERON:0009745	.
+LMHA:00521	autonomic neuron	Cell	owl:equivalentClass	CL:0000107	autonomic neuron	cell	Lexical	LMHA	CL	rdf_matcher	0.9784138945209743	oio:hasDbXref	dc:identifier	CL:0000107	.
+LMHA:00087	basal cell	Cell	owl:equivalentClass	CL:0000646	basal cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784315027016856	oio:hasDbXref	dc:identifier	CL:0000646	.
+LMHA:00062	pulmonary alveolar duct	AnatomicalStructure	owl:equivalentClass	UBERON:0002173	pulmonary alveolar duct	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6511863274095822	rdfs:label	rdfs:label	pulmonary alveolar duct	.
+LMHA:00007	matrix fibroblast	Cell	owl:equivalentClass	CL:0000057	fibroblast	cell	Lexical	LMHA	CL	rdf_matcher	0.9784638208090788	oio:hasDbXref	dc:identifier	CL:0000057	.
+LMHA:00338	glial cell	Cell	owl:equivalentClass	CL:0000125	glial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4827316812958569	rdfs:label	rdfs:label	glial cell	.
+LMHA:00338	glial cell	Cell	owl:equivalentClass	CL:0000218	myelinating Schwann cell	cell	Lexical	LMHA	CL	rdf_matcher	0.957709148693589	oio:hasDbXref	dc:identifier	CL:0000218	.
+LMHA:00583	tracheal epithelial cell	AnatomicalStructure	owl:equivalentClass	CL:0000307	tracheal epithelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784692945725213	oio:hasDbXref	dc:identifier	CL:0000307	.
+LMHA:00623	innate lymphoid cell	Cell	owl:equivalentClass	CL:0001065	innate lymphoid cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784780269128774	oio:hasDbXref	dc:identifier	CL:0001065	.
+LMHA:00577	bronchial epithelial cell	Cell	owl:equivalentClass	CL:0002328	bronchial epithelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784494500410238	oio:hasDbXref	dc:identifier	CL:0002328	.
+LMHA:00688	medullary sinus	General	owl:equivalentClass	UBERON:0009744	lymph node medullary sinus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784757718020448	oio:hasDbXref	dc:identifier	UBERON:0009744	.
+LMHA:00136	connective tissue cell	Cell	owl:equivalentClass	CL:0002320	connective tissue cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784472311547093	oio:hasDbXref	dc:identifier	CL:0002320	.
+LMHA:00216	lymphatic endothelial cell	AnatomicalSystem	owl:equivalentClass	CL:0002138	endothelial cell of lymphatic vessel	cell	Lexical	LMHA	CL	rdf_matcher	0.9783879977769382	oio:hasDbXref	dc:identifier	CL:0002138	.
+LMHA:00805	venous endothelial cell	Cell	owl:equivalentClass	CL:0002543	vein endothelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4482953130301927	rdfs:label	oio:hasExactSynonym	venous endothelial cell	.
+LMHA:00805	venous endothelial cell	Cell	owl:equivalentClass	CL:0000115	endothelial cell	cell	Lexical	LMHA	CL	rdf_matcher	0.33343300156864747	oio:hasDbXref	oio:hasDbXref	BTO:0001176	.
+LMHA:00343	smooth muscle cell	Cell	owl:equivalentClass	CL:0000192	smooth muscle cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784728266655607	oio:hasDbXref	dc:identifier	CL:0000192	.
+LMHA:00252	neuroendocrine cell	Cell	owl:equivalentClass	CL:0000165	neuroendocrine cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784500788129814	oio:hasDbXref	dc:identifier	CL:0000165	.
+LMHA:00089	basement membrane	General	owl:equivalentClass	UBERON:0005769	basement membrane of epithelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000500368709113	oio:hasDbXref	oio:hasDbXref	FMA:63872	.
+LMHA:00369	tracheal smooth muscle	AnatomicalStructure	owl:equivalentClass	UBERON:0003387	smooth muscle of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6190134326765329	rdfs:label	oio:hasExactSynonym	tracheal smooth muscle	.
+LMHA:00447	pulmonary lymphatic vessel	AnatomicalSystem	owl:equivalentClass	UBERON:0018227	pulmonary lymphatic vessel	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783977166204756	oio:hasDbXref	dc:identifier	UBERON:0018227	.
+LMHA:00305	pulmonary vein	AnatomicalSystem	owl:equivalentClass	UBERON:0002016	pulmonary vein	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784289869660899	oio:hasDbXref	dc:identifier	UBERON:0002016	.
+LMHA:00101	bronchial epithelium	AnatomicalStructure	owl:equivalentClass	UBERON:0002031	epithelium of bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784082306175053	oio:hasDbXref	dc:identifier	UBERON:0002031	.
+LMHA:00217	lymphatic smooth muscle	AnatomicalSystem	owl:equivalentClass	UBERON:0004232	lymphatic vessel smooth muscle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978478477432443	oio:hasDbXref	dc:identifier	UBERON:0004232	.
+LMHA:00340	serous cell	Cell	owl:equivalentClass	CL:0000313	serous secreting cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784202852561118	oio:hasDbXref	dc:identifier	CL:0000313	.
+LMHA:00586	alveolar epithelial cell	Cell	owl:equivalentClass	CL:0000322	pneumocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.6190588184654898	rdfs:label	oio:hasExactSynonym	alveolar epithelial cell	.
+LMHA:00558	Langerhans cell	Cell	owl:equivalentClass	CL:0000453	Langerhans cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784399723605821	oio:hasDbXref	dc:identifier	CL:0000453	.
+LMHA:00817	alveolar sac	AnatomicalStructure	owl:equivalentClass	UBERON:0002169	alveolar sac	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784094151459005	oio:hasDbXref	dc:identifier	UBERON:0002169	.
+LMHA:00379	type I pneumocyte	Cell	owl:equivalentClass	CL:0002062	type I pneumocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784559352370926	oio:hasDbXref	dc:identifier	CL:0002062	.
+LMHA:00288	tracheal epithelium	AnatomicalStructure	owl:equivalentClass	UBERON:0001901	epithelium of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784384412197195	oio:hasDbXref	dc:identifier	UBERON:0001901	.
+LMHA:00483	tracheal lamina propria	AnatomicalStructure	owl:equivalentClass	UBERON:0000031	lamina propria of trachea	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784275562062892	oio:hasDbXref	dc:identifier	UBERON:0000031	.
+LMHA:00210	lower respiratory tract	AnatomicalStructure	owl:equivalentClass	UBERON:0001558	lower respiratory tract	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784007271897093	oio:hasDbXref	dc:identifier	UBERON:0001558	.
+LMHA:00065	alveolar epithelium	AnatomicalStructure	owl:equivalentClass	UBERON:0004821	pulmonary alveolus epithelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000024855831998	oio:hasDbXref	oio:hasDbXref	FMA:63915	.
+LMHA:00381	type II pneumocyte	Cell	owl:equivalentClass	CL:0002063	type II pneumocyte	cell	Lexical	LMHA	CL	rdf_matcher	0.9784340609142688	oio:hasDbXref	dc:identifier	CL:0002063	.
+LMHA:00590	bronchial lamina propria	AnatomicalStructure	owl:equivalentClass	UBERON:0002338	lamina propria of bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783834709255166	oio:hasDbXref	dc:identifier	UBERON:0002338	.
+LMHA:00397	vein endothelium	AnatomicalSystem	owl:equivalentClass	UBERON:0001919	endothelium of vein	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784364214137984	oio:hasDbXref	dc:identifier	UBERON:0001919	.
+LMHA:00120	bronchus	AnatomicalStructure	owl:equivalentClass	UBERON:0002185	bronchus	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9783829322815435	oio:hasDbXref	dc:identifier	UBERON:0002185	.
+LMHA:00403	venule endothelium	AnatomicalSystem	owl:equivalentClass	UBERON:0001918	endothelium of venule	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.6190214694987164	rdfs:label	oio:hasExactSynonym	venule endothelium	.
+LMHA:00567	lymphoid follicle	AnatomicalSystem	owl:equivalentClass	UBERON:0000444	lymphoid follicle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784141606942033	oio:hasDbXref	dc:identifier	UBERON:0000444	.
+LMHA:00680	cortex	AnatomicalSystem	owl:equivalentClass	UBERON:0001851	cortex	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784063547346181	oio:hasDbXref	dc:identifier	UBERON:0001851	.
+LMHA:00241	myeloid cell	Cell	owl:equivalentClass	CL:0000763	myeloid cell	cell	Lexical	LMHA	CL	rdf_matcher	0.978472321483151	oio:hasDbXref	dc:identifier	CL:0000763	.
+LMHA:00692	blood cell	Cell	owl:equivalentClass	CL:0000081	blood cell	cell	Lexical	LMHA	CL	rdf_matcher	0.9784355087936814	oio:hasDbXref	dc:identifier	CL:0000081	.
+LMHA:00422	lymphatic endothelium	AnatomicalSystem	owl:equivalentClass	UBERON:0002042	lymphatic vessel endothelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.9784484488672412	oio:hasDbXref	dc:identifier	UBERON:0002042	.
+LMHA:00182	macrophage	Cell	owl:equivalentClass	CL:0000235	macrophage	cell	Lexical	LMHA	CL	rdf_matcher	0.9784227138135616	oio:hasDbXref	dc:identifier	CL:0000235	.
+LMHA:00256	neutrophil	Cell	owl:equivalentClass	CL:0000775	neutrophil	cell	Lexical	LMHA	CL	rdf_matcher	0.9783931105961349	oio:hasDbXref	dc:identifier	CL:0000775	.
+LMHA:00457	terminal bronchiolar epithelium	AnatomicalStructure	owl:equivalentClass	UBERON:0001958	terminal bronchiole epithelium	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.5000053667239186	oio:hasDbXref	oio:hasDbXref	FMA:62794	.
+LMHA:00140	respiratory bronchiole	AnatomicalStructure	owl:equivalentClass	UBERON:0002188	respiratory bronchiole	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.651150898831554	rdfs:label	rdfs:label	respiratory bronchiole	.
+LMHA:00393	vascular smooth muscle	AnatomicalSystem	owl:equivalentClass	UBERON:0004237	blood vessel smooth muscle	uberon	Lexical	LMHA	UBERON	rdf_matcher	0.978477266835272	oio:hasDbXref	dc:identifier	UBERON:0004237	.
+LMHA:00437	nuocyte	Cell	owl:equivalentClass	CL:0001069	group 2 innate lymphoid cell	cell	Lexical	LMHA	CL	rdf_matcher	0.4482500673294303	rdfs:label	oio:hasExactSynonym	nuocyte	.
+LMHA:00437	nuocyte	Cell	owl:equivalentClass	CL:0002089	group 2 innate lymphoid cell, mouse	cell	Lexical	LMHA	CL	rdf_matcher	0.957722631802014	oio:hasDbXref	dc:identifier	CL:0002089	.
+LMHA:00090	basophil	Cell	owl:equivalentClass	CL:0000767	basophil	cell	Lexical	LMHA	CL	rdf_matcher	0.9784060456032034	oio:hasDbXref	dc:identifier	CL:0000767	.
+LMHA:00804	arterial endothelial cell	Cell	owl:equivalentClass	CL:1000413	endothelial cell of artery	cell	Lexical	LMHA	CL	rdf_matcher	0.6190472077759835	rdfs:label	oio:hasExactSynonym	arterial endothelial cell	.
 

@@ -1,0 +1,163 @@
+subject_id	subject_label	subject_category
+LMHA:00645	visceral afferent sensory nerve terminal	AnatomicalSystem
+LMHA:00378	subendothelial connective tissue cell	AnatomicalSystem
+LMHA:00516	left anterior bronchus	AnatomicalStructure
+LMHA:00546	respiratory autonomic nervous system	AnatomicalSystem
+LMHA:00525	left lateral basal bronchus	AnatomicalStructure
+LMHA:00523	inferior lingular bronchus	AnatomicalStructure
+LMHA:00518	left apical bronchus	AnatomicalStructure
+LMHA:00486	pulmonary muscular arteriole tunica adventitia	AnatomicalSystem
+LMHA:00643	general visceral nervous system	General
+LMHA:00517	left anterior basal bronchus	AnatomicalStructure
+LMHA:00473	bronchial artery tunica adventitia	AnatomicalStructure
+LMHA:00539	right anterior basal segmental bronchus	AnatomicalStructure
+LMHA:00472	bronchial arteriole tunica adventitia	AnatomicalStructure
+LMHA:00526	right lateral bronchus	AnatomicalStructure
+LMHA:00283	proteoglycan	General
+LMHA:00545	left posterior bronchus	AnatomicalStructure
+LMHA:00544	left posterior basal bronchus	AnatomicalStructure
+LMHA:00542	medial bronchus	AnatomicalStructure
+LMHA:00292	pulmonary artery tunica adventitia	AnatomicalSystem
+LMHA:00541	medial basal bronchus	AnatomicalStructure
+LMHA:00616	right apical bronchus	AnatomicalStructure
+LMHA:00554	right upper lobe anterior bronchus	AnatomicalStructure
+LMHA:00553	superior lingular bronchus	AnatomicalStructure
+LMHA:00552	left lower lobe superior bronchus	AnatomicalStructure
+LMHA:00315	pulmonary blood vessel	AnatomicalSystem
+LMHA:00620	right posterior bronchus	AnatomicalStructure
+LMHA:00619	right lower lobe superior bronchus	AnatomicalStructure
+LMHA:00678	connective tissue capsule	General
+LMHA:00618	right posterior basal bronchus	AnatomicalStructure
+LMHA:00617	right lateral basal bronchus	AnatomicalStructure
+LMHA:00297	pulmonary distal arteriole	AnatomicalSystem
+LMHA:00410	fibroelastic membrane	General
+LMHA:00635	left pulmonary nerve plexus	AnatomicalStructure
+LMHA:00243	myofibroblast	Cell
+LMHA:00107	bronchial vein tunica intima	AnatomicalStructure
+LMHA:00106	bronchial vein tunica adventitia	AnatomicalStructure
+LMHA:00537	left upper lobe visceral pleura	AnatomicalStructure
+LMHA:00636	left anterior pulmonary nerve plexus	AnatomicalStructure
+LMHA:00108	bronchial vein tunica media	AnatomicalStructure
+LMHA:00257	non-adrenergic and non-cholinergic nerve	AnatomicalSystem
+LMHA:00632	intra-parenchymal blood vessel	AnatomicalSystem
+LMHA:00110	bronchial venule tunica adventitia	AnatomicalStructure
+LMHA:00109	bronchial venule	AnatomicalStructure
+LMHA:00111	bronchial venule tunica intima	AnatomicalStructure
+LMHA:00253	neuroepithelial body	Cell
+LMHA:00640	right posterior pulmonary nerve plexus	AnatomicalSystem
+LMHA:00139	respiratory bronchiolar wall	AnatomicalStructure
+LMHA:00114	bronchiolar adventitia	AnatomicalStructure
+LMHA:00112	bronchial venule tunica media	AnatomicalStructure
+LMHA:00644	general visceral afferent nerve	Cell
+LMHA:00641	pulmonary autonomic nerve	AnatomicalSystem
+LMHA:00637	left posterior pulmonary nerve  plexus	AnatomicalStructure
+LMHA:00580	membranous bronchiolar wall	AnatomicalStructure
+LMHA:00358	terminal bronchiolar wall	AnatomicalStructure
+LMHA:00638	right pulmonary nerve plexus	AnatomicalSystem
+LMHA:00639	right anterior pulmonary nerve plexus	AnatomicalStructure
+LMHA:00031	right middle lobe hilum	AnatomicalStructure
+LMHA:00312	pulmonary muscular venule tunica media	AnatomicalSystem
+LMHA:00037	right middle lobe visceral pleura	AnatomicalStructure
+LMHA:00038	right upper lobe alveolar parenchyma	AnatomicalStructure
+LMHA:00818	alveolar sac lumen	AnatomicalStructure
+LMHA:00535	left upper lobe hilum	AnatomicalStructure
+LMHA:00630	membranous bronchiolar epithelial cell	Cell
+LMHA:00629	respiratory bronchiolar epithelial cell	Cell
+LMHA:00040	right upper lobe hilum	AnatomicalStructure
+LMHA:00582	terminal bronchiolar epithelial cell	Cell
+LMHA:00550	right lung segmental bronchus	AnatomicalStructure
+LMHA:00046	right upper lobe visceral pleura	AnatomicalStructure
+LMHA:00168	extracellular matrix	General
+LMHA:00145	collagen fiber	General
+LMHA:00146	collecting duct cell	AnatomicalStructure
+LMHA:00094	bronchial adventitia	AnatomicalStructure
+LMHA:00300	pulmonary distal arteriole tunica media	AnatomicalSystem
+LMHA:00530	left lung segmental bronchus	AnatomicalStructure
+LMHA:00298	pulmonary distal arteriole tunica adventitia	AnatomicalSystem
+LMHA:00689	paratrabecular sinus	General
+LMHA:00303	pulmonary distal venule tunica intima	AnatomicalSystem
+LMHA:00304	pulmonary muscular arteriole	AnatomicalSystem
+LMHA:00686	endothelial sinus	General
+LMHA:00151	postnatal age	http://purl.obolibrary.org/obo/http://www.lungmap.net/ontologies/human_anatomy#taxid_9606
+LMHA:00316	pulmonary venule	AnatomicalSystem
+LMHA:00301	pulmonary distal venule	AnatomicalSystem
+LMHA:00133	tracheal cartilaginous ring	AnatomicalStructure
+LMHA:00302	pulmonary distal venule tunica adventitia	AnatomicalSystem
+LMHA:00687	cortical sinus	General
+LMHA:00066	alveolar interstitial cell	Cell
+LMHA:00405	visceral connective tissue	General
+LMHA:00306	pulmonary vein tunica adventitia	AnatomicalSystem
+LMHA:00524	intermediate airway progenitor cell	Cell
+LMHA:00560	left upper lobe interlobular septum	AnatomicalStructure
+LMHA:00020	right lower lobe alveolar parenchyma	AnatomicalStructure
+LMHA:00559	left lower lobe interlobular septum	AnatomicalStructure
+LMHA:00440	vascular connective tissue	AnatomicalSystem
+LMHA:00816	peripheral blood lymphocytes	Cell
+LMHA:00589	bronchiolar lamina propria	AnatomicalStructure
+LMHA:00309	pulmonary muscular venule	AnatomicalSystem
+LMHA:00566	right upper lobe interlobular septum	AnatomicalStructure
+LMHA:00565	right middle lobe interlobular septum	AnatomicalStructure
+LMHA:00310	pulmonary muscular venule tunica adventitia	AnatomicalSystem
+LMHA:00564	right lower lobe interlobular septum	AnatomicalStructure
+LMHA:00022	right lower lobe hilum	AnatomicalStructure
+LMHA:00308	pulmonary vein tunica media	AnatomicalSystem
+LMHA:00138	respiratory bronchiolar lumen	AnatomicalStructure
+LMHA:00028	right lower lobe visceral pleura	AnatomicalStructure
+LMHA:00029	right middle lobe alveolar parenchyma	AnatomicalStructure
+LMHA:00547	respiratory immune system	AnatomicalSystem
+LMHA:00357	terminal bronchiolar lumen	AnatomicalStructure
+LMHA:00068	alveolar lumen	AnatomicalStructure
+LMHA:00356	telocyte	Cell
+LMHA:00307	pulmonary vein tunica intima	AnatomicalSystem
+LMHA:00311	pulmonary muscular venule tunica intima	AnatomicalSystem
+LMHA:00529	left lung lower lobe	AnatomicalStructure
+LMHA:00290	pulmonary arteriole	AnatomicalSystem
+LMHA:00096	bronchial arteriole tunica intima	AnatomicalStructure
+LMHA:00576	glycosaminoglycan	General
+LMHA:00202	left lower lobe hilum	AnatomicalStructure
+LMHA:00299	pulmonary distal arteriole tunica intima	AnatomicalSystem
+LMHA:00575	immunoblast	Cell
+LMHA:00207	left lower lobe visceral pleura	AnatomicalStructure
+LMHA:00488	pulmonary muscular arteriole tunica intima	AnatomicalSystem
+LMHA:00367	tracheal adventitia	AnatomicalStructure
+LMHA:00060	alveolar capillary bed	AnatomicalSystem
+LMHA:00064	alveolar duct wall	AnatomicalStructure
+LMHA:00071	alveolar septal crest	AnatomicalStructure
+LMHA:00489	pulmonary muscular arteriole tunica media	AnatomicalSystem
+LMHA:00563	respiratory bronchiolar alveolus	AnatomicalStructure
+LMHA:00634	pulmonary autonomic ganglion	AnatomicalSystem
+LMHA:00294	pulmonary artery tunica media	AnatomicalSystem
+LMHA:00061	alveolar capillary endothelium	AnatomicalSystem
+LMHA:00533	left upper lobe alveolar parenchyma	AnatomicalStructure
+LMHA:00200	left lower lobe alveolar parenchyma	AnatomicalStructure
+LMHA:00063	alveolar duct lumen	AnatomicalStructure
+LMHA:00178	glycoprotein	General
+LMHA:00351	submucosal gland epithelium	AnatomicalStructure
+LMHA:00180	ground substance	General
+LMHA:00067	alveolar interstitial tissue	AnatomicalStructure
+LMHA:00386	unclassified fibroblast	Cell
+LMHA:00598	proliferative interstitial cell	Cell
+LMHA:00124	bronchus wall	AnatomicalStructure
+LMHA:00614	lymphoid cell	Cell
+LMHA:00104	bronchial blood vessel	AnatomicalSystem
+LMHA:00095	bronchial arteriole	AnatomicalSystem
+LMHA:00615	tingible body macrophage	Cell
+LMHA:00097	bronchial arteriole tunica media	AnatomicalStructure
+LMHA:00100	bronchial artery tunica media	AnatomicalStructure
+LMHA:00238	mucus cell	Cell
+LMHA:00694	submucosal gland epithelial cell	AnatomicalStructure
+LMHA:00595	bronchial cartilaginous ring	AnatomicalStructure
+LMHA:00099	bronchial artery tunica intima	AnatomicalStructure
+LMHA:00293	pulmonary artery tunica intima	AnatomicalSystem
+LMHA:00579	membranous bronchiolar lumen	AnatomicalStructure
+LMHA:00209	lipofibroblast	Cell
+LMHA:00568	paracortex	General
+LMHA:00578	membranous bronchiole	AnatomicalStructure
+LMHA:00366	trachea wall	AnatomicalStructure
+LMHA:00693	submucosal gland duct epithelial cell	AnatomicalStructure
+LMHA:00213	interstitial macrophage	Cell
+LMHA:00286	respiratory bronchiolar epithelium	AnatomicalStructure
+LMHA:00222	lymphatic vessel tunica media	AnatomicalSystem
+LMHA:00221	lymphatic vessel tunica intima	AnatomicalSystem
+LMHA:00220	lymphatic vessel tunica adventitia	AnatomicalSystem
+LMHA:00581	membranous bronchiolar epithelium	AnatomicalStructure
