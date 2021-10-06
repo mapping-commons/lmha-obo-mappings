@@ -25,3 +25,8 @@ downloads/%.owl:
 $(SRC): 
 	robot merge -i downloads/lmha-download.owl -i conf/lmha-bridge.ttl -o $@
 .PRECIOUS: $(SRC)
+
+#diffs/cell-anatomy-diff.%:#
+	robot diff --left downloads/LMHA_20190512.owl  --right  downloads/LMHA_20190512_Cell.owl -f $* -o $@
+diffs/cell-anatomy-diff.md:
+	robot diff --left downloads/LMHA_20190512.owl  --right  downloads/LMHA_20190512_Cell.owl -f markdown -o $@
