@@ -7,7 +7,7 @@ Not much time to document this, sorry...
 
 All mappings are in SSSOM format
 
-They are generated automatically, but using existing xrefs as priors. These have high confidence
+They are generated automatically using rdf_matcher, but using existing xrefs as priors. These have high confidence, as the assumption is that previously curated xrefs are high quality, but the prior weightings can be altered
 
 E.g
 
@@ -28,6 +28,8 @@ If there is a match using something like a synonym or shared xref then this will
 ones for which neither xref nor lexical match found:
 
  * [no mappings](mappings/lmha-nomatches.sssom.tsv)
+
+This is being used to gapfill: https://github.com/mapping-commons/lmha-obo-mappings/issues/1
 
 
 # TODO
